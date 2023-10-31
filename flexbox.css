@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.object-one, .object-two, .object-three{
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    text-align: center;
+}
+.object-one{
+    flex-direction: row;
+    background-color: red;
+}
+.object-two{
+    flex-direction: row;
+    background-color: yellow;
+} 
+.object-three{
+    flex-direction: row;
+    background-color: blue;
+}
